@@ -29,10 +29,13 @@ main {
 
 .dg-container {
     background-color: #e5800d;
+    border: 2px solid black; /* 2px width and solid style */
 }
 
 .mingmei-container {
     background-color: #bee718;
+    border: 2px solid black; /* 2px width and solid style */
+
 }
 
 .type-container {
@@ -44,6 +47,8 @@ main {
     background-color: #f1f1f1;
     border-radius: 5px;
     overflow: hidden;
+    border: 2px solid black; /* 2px width and solid style */
+
 }
 
 .progress-bar {
