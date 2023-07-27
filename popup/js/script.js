@@ -2,8 +2,8 @@
 window.updateCode = function () {
     // ... 原来 updateCode 函数的实现 ...
     // 用户密钥
-    const digitalgd = getSecretBin('JVIJOPGAHW3367XA');
-    const mingmei = getSecretBin('MAGAJ3QDKXTUJ5PF');
+    const digitalgd = getSecretBin('123');
+    const mingmei = getSecretBin('123');
 
     function getSecretBin(secret) {
         return arrayToBinary(Array.from(new Uint8Array(base32Decode(secret.toUpperCase(), 'RFC4648'))));
